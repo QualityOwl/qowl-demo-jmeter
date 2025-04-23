@@ -1,8 +1,3 @@
-## The Latest Version
-
-Details of the latest version can be found on the
-[JMeter Apache Project web site](https://jmeter.apache.org/)
-
 ## Requirements
 
 The following requirements exist for running the demo JMeter test plan:
