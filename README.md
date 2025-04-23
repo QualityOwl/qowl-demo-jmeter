@@ -5,35 +5,21 @@ Details of the latest version can be found on the
 
 ## Requirements
 
-The following requirements exist for running Apache JMeter:
+The following requirements exist for running the demo JMeter test plan:
 
-- Java Interpreter:
-
-  A fully compliant Java 8 Runtime Environment is required
-  for Apache JMeter to execute. A JDK with `keytool` utility is better suited
-  for Recording HTTPS websites.
-
-- Optional jars:
-
-  Some jars are not included with JMeter.
-  If required, these should be downloaded and placed in the lib directory
-  - JDBC - available from the database supplier
-  - JMS - available from the JMS provider
-  - [Bouncy Castle](https://www.bouncycastle.org/) -
-  only needed for SMIME Assertion
-
-## Installation Instructions
-
-> **Note** that spaces in directory names can cause problems.
-
-- Release builds
-
-  Unpack the binary archive into a suitable directory structure.
+- The latest [Java JDK](https://www.oracle.com/java/technologies/downloads/) version installed on your local machine.
 
 ## Running JMeter
 
-1. Change to the `bin` directory
-2. Run the `jmeter` (Un\*x) or `jmeter.bat` (Windows) file.
+1. Clone this repository to your local machine: `https://github.com/QualityOwl/qowl-demo-jmeter.git`
+2. Open the repository folder.
+3. Open 'jmeter.bat'
+   - *Location --> $\bin\\*
+4. Wait for JMeter to open
+5. Click 'File > Open'
+6. Open 'demo-test-plan.jmx'
+   - *Location --> $\test_plans\\*
+8. Click 'Run' button
 
 ### Windows
 
@@ -43,9 +29,3 @@ a JMX file onto:
 - `jmeter-n.cmd` - runs the file as a non-GUI test
 - `jmeter-n-r.cmd` - runs the file as a non-GUI remote (client-server) test
 - `jmeter-t.cmd` - loads the file ready to run it as a GUI test
-
-## Documentation
-
-The documentation available as of the date of this release is
-also included, in HTML format, in the [printable_docs](printable_docs) directory,
-and it may be browsed starting from the file called [index.html](printable_docs/index.html).
