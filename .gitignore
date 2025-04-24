@@ -1,2 +1,5 @@
+*.lnk
+
 # JMeter
 /backups/
+*.log
